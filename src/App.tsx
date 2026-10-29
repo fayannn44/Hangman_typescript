@@ -7,7 +7,7 @@ import words from "../worldList.json";
 const MAX_ATTEMPTS = 6;
 
 function App() {
-  const [currentWord, setCurrentWord] = useState(() => {
+  const [currentWord,] = useState(() => {
     return words[Math.floor(Math.random() * words.length)].toUpperCase();
   });
 
